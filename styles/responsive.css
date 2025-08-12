@@ -1,0 +1,122 @@
+/* Mobile Devices Styles Starts From Here */
+@media screen and (max-width:425px) {
+/* Universal Styles Starts From Here */
+body{
+     max-width: 90%;
+}
+/* Universal Styles Ends Here */
+
+/* Shared Styles Starts From Here */
+
+/* Shared Styles Ends Here */
+
+/* Navbar Section Starts From Here */
+.nav-container{
+    margin: 16px 0px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-container .nav-title h1{
+    font-size: 24px;
+}
+
+.nav-container .nav-btn .download-btn{
+    font-size: 16px;
+    padding: 10px 24px;
+}
+/* Navbar Section Ends Here */
+    
+}
+/* Mobile Devices Styles Ends Here */
+
+/* Tablet Devices Styles Starts From Here */
+@media screen and (max-width:768px) and (min-width:426px) {
+/* Universal Styles Starts From Here */
+body{
+     max-width: 90%;
+}
+/* Universal Styles Ends Here */
+
+/* Shared Styles Starts From Here */
+
+/* Shared Styles Ends Here */
+
+/* Navbar Section Starts From Here */
+.nav-container{
+    margin: 16px 0px;
+}
+
+.nav-container .nav-title h1{
+    font-size: 24px;
+}
+
+.nav-container .nav-btn .download-btn{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+/* Navbar Section Ends Here */
+}
+/* Tablet Devices Styles Ends Here */
+
+/* Laptop Devices Styles Starts From Here */
+@media screen and (max-width:1024px) and (min-width:769px) {
+/* Universal Styles Starts From Here */
+body{
+     max-width: 80%;
+}
+/* Universal Styles Ends Here */
+
+/* Shared Styles Starts From Here */
+
+/* Shared Styles Ends Here */
+
+/* Navbar Section Starts From Here */
+.nav-container{
+    margin: 24px 0px;
+}
+
+.nav-container .nav-title h1{
+    font-size: 24px;
+}
+
+.nav-container .nav-btn .download-btn{
+    font-size: 18px;
+    padding: 12px 20px;
+}
+/* Navbar Section Ends Here */
+}
+/* Laptop Devices Styles Ends Here */
+
+
+/* Large Device Styles Starts From Here */
+@media screen and (max-width:1440px) and (min-width:1025px) {
+/* Universal Styles Starts From Here */
+body{
+     max-width: 75%;
+}
+/* Universal Styles Ends Here */
+
+/* Shared Styles Starts From Here */
+
+/* Shared Styles Ends Here */
+
+/* Navbar Section Starts From Here */
+.nav-container{
+    margin: 28px 0px;
+}
+
+.nav-container .nav-title h1{
+    font-size: 26px;
+}
+
+.nav-container .nav-btn .download-btn{
+    font-size: 20px;
+    padding: 12px 20px;
+}
+/* Navbar Section Ends Here */
+}
+/* Large Device Styles Ends Here */
+
+
+
