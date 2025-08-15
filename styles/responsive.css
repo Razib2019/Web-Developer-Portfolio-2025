@@ -1,18 +1,17 @@
 /* Mobile Devices Styles Starts From Here */
 @media screen and (max-width:425px) {
 /* Universal Styles Starts From Here */
-body{
-     max-width: 90%;
-}
+
 /* Universal Styles Ends Here */
 
 /* Shared Styles Starts From Here */
 
 /* Shared Styles Ends Here */
 
-/* Navbar Section Starts From Here */
-.nav-container{
-    margin: 16px 0px;
+/* Navbar Section Styles Starts From Here */
+header .nav-container{
+    max-width: 90%;
+    margin: 16px auto;
     flex-direction: column;
     gap: 20px;
 }
@@ -25,7 +24,36 @@ body{
     font-size: 16px;
     padding: 10px 24px;
 }
-/* Navbar Section Ends Here */
+/* Navbar Section Styles Ends Here */
+
+/* Banner Section Styles Starts From Here */
+.banner-container{
+    background-size:300px;
+}
+
+.banner-container .banner-contents-container{
+    padding:  20px 0px 25px;
+}
+
+.banner-contents .banner-title{
+    max-width: 90%;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 15px auto 10px;
+}
+
+.banner-contents .banner-description{
+    max-width:  90%;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 auto 15px;
+}
+
+.banner-contents .contact-btn{
+    padding: 10px 24px;
+    font-size: 16px;
+}
+/* Banner Section Styles Ends Here */
     
 }
 /* Mobile Devices Styles Ends Here */
@@ -33,18 +61,17 @@ body{
 /* Tablet Devices Styles Starts From Here */
 @media screen and (max-width:768px) and (min-width:426px) {
 /* Universal Styles Starts From Here */
-body{
-     max-width: 90%;
-}
+
 /* Universal Styles Ends Here */
 
 /* Shared Styles Starts From Here */
 
 /* Shared Styles Ends Here */
 
-/* Navbar Section Starts From Here */
-.nav-container{
-    margin: 16px 0px;
+/* Navbar Section Styles Starts From Here */
+header .nav-container{
+    max-width: 90%;
+    margin: 24px auto;
 }
 
 .nav-container .nav-title h1{
@@ -55,16 +82,42 @@ body{
     font-size: 16px;
     padding: 10px 20px;
 }
-/* Navbar Section Ends Here */
+/* Navbar Section Styles Ends Here */
+
+/* Banner Section Styles Starts From Here */
+.banner-container{
+    background-size: 400px;
+}
+
+.banner-container .banner-contents-container{
+    padding:  20px 0px 20px;
+}
+
+.banner-contents .banner-title{
+    max-width: 90%;
+    font-size: 30px;
+    line-height: 44px;
+    margin: 20px auto 16px;
+}
+
+.banner-contents .banner-description{
+    max-width:  90%;
+    font-size: 14px;
+    margin: 0 auto 20px;
+}
+
+.banner-contents .contact-btn{
+    padding: 16px 24px;
+    font-size: 18px;
+}
+/* Banner Section Styles Ends Here */
 }
 /* Tablet Devices Styles Ends Here */
 
 /* Laptop Devices Styles Starts From Here */
 @media screen and (max-width:1024px) and (min-width:769px) {
 /* Universal Styles Starts From Here */
-body{
-     max-width: 80%;
-}
+
 /* Universal Styles Ends Here */
 
 /* Shared Styles Starts From Here */
@@ -72,8 +125,9 @@ body{
 /* Shared Styles Ends Here */
 
 /* Navbar Section Starts From Here */
-.nav-container{
-    margin: 24px 0px;
+header .nav-container{
+    max-width: 85%;
+    margin: 24px auto;
 }
 
 .nav-container .nav-title h1{
@@ -84,7 +138,34 @@ body{
     font-size: 18px;
     padding: 12px 20px;
 }
-/* Navbar Section Ends Here */
+/* Navbar Section Styles Ends Here */
+
+/* Banner Section Styles Starts From Here */
+.banner-container{
+    background-size: 500px;
+}
+
+.banner-container .banner-contents-container{
+    padding:  24px 0px 36px;
+}
+
+.banner-contents .banner-title{
+    max-width: 80%;
+    font-size: 36px;
+    line-height: 56px;
+    margin: 24px auto 20px;
+}
+
+.banner-contents .banner-description{
+    max-width:  80%;
+    margin: 0 auto 24px;
+}
+
+.banner-contents .contact-btn{
+    padding: 16px 24px;
+    font-size: 18px;
+}
+/* Banner Section Styles Ends Here */
 }
 /* Laptop Devices Styles Ends Here */
 
@@ -92,18 +173,17 @@ body{
 /* Large Device Styles Starts From Here */
 @media screen and (max-width:1440px) and (min-width:1025px) {
 /* Universal Styles Starts From Here */
-body{
-     max-width: 75%;
-}
+
 /* Universal Styles Ends Here */
 
 /* Shared Styles Starts From Here */
 
 /* Shared Styles Ends Here */
 
-/* Navbar Section Starts From Here */
-.nav-container{
-    margin: 28px 0px;
+/* Navbar Section Styles Starts From Here */
+header .nav-container{
+    max-width: 80%;
+    margin: 28px auto;
 }
 
 .nav-container .nav-title h1{
@@ -114,7 +194,33 @@ body{
     font-size: 20px;
     padding: 12px 20px;
 }
-/* Navbar Section Ends Here */
+/* Navbar Section Styles Ends Here */
+
+/* Banner Section Styles Starts From Here */
+.banner-container{
+    background-size: 600px;
+}
+
+.banner-container .banner-contents-container{
+    padding:  26px 0px 36px;
+}
+
+.banner-contents .banner-title{
+    max-width: 80%;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 28px auto 20px;
+}
+
+.banner-contents .banner-description{
+    max-width:  80%;
+    margin: 0 auto 28px;
+}
+
+.banner-contents .contact-btn{
+    padding: 18px 24px;
+}
+/* Banner Section Styles Ends Here */
 }
 /* Large Device Styles Ends Here */
 
